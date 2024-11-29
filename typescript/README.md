@@ -5,12 +5,12 @@ Simple context management for AI chat applications. Handles message history and 
 ## Installation
 
 ```bash
-npm install aicontext
+npm install @spencerkinney/aicontext
 ```
 
 ## Example
 ```typescript
-import { AIChatContext, aiChatContext } from 'aicontext';
+import { AIChatContext, aiChatContext } from '@spencerkinneydev/aicontext';
 import OpenAI from 'openai';
 import Anthropic from '@anthropic-ai/sdk';
 
@@ -151,7 +151,7 @@ interface FilterOptions {
 
 ### Using with JavaScript
 ```javascript
-const { AIChatContext, aiChatContext } = require('aicontext');
+const { AIChatContext, aiChatContext } = require('@spencerkinneydev/aicontext');
 
 class AIClient {
     constructor() {

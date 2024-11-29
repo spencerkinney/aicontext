@@ -1,6 +1,6 @@
 {
   "name": "@spencerkinneydev/aicontext",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Simple context management for AI conversations",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
