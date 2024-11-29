@@ -2,6 +2,12 @@
 
 Simple context management for AI chat applications. Handles message history and formatting across different LLM providers.
 
+## Installation
+
+```bash
+pip install aicontext
+```
+
 ## Example
 ```python
 from aicontext import AIChatContext, ai_chat_context
@@ -87,12 +93,6 @@ saved = context.to_json()
 
 # Load in new context
 new_context = AIChatContext(messages=saved)
-```
-
-## Installation
-
-```bash
-pip install aicontext
 ```
 
 ## API Reference
