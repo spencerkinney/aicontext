@@ -1,12 +1,17 @@
 {
-  "name": "aicontext",
+  "name": "aicontext-root",
   "private": true,
   "workspaces": [
     "typescript"
   ],
   "scripts": {
-    "build:ts": "cd typescript && npm run build",
-    "test:ts": "cd typescript && npm run test",
-    "publish:ts": "cd typescript && npm publish"
+    "build": "npm run build -w typescript",
+    "test": "npm run test -w typescript",
+    "lint": "npm run lint -w typescript",
+    "format": "npm run format -w typescript",
+    "publish-package": "npm publish -w typescript --access public"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.3"
   }
 }
