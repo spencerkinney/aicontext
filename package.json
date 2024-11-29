@@ -1,0 +1,12 @@
+{
+  "name": "aicontext",
+  "private": true,
+  "workspaces": [
+    "typescript"
+  ],
+  "scripts": {
+    "build:ts": "cd typescript && npm run build",
+    "test:ts": "cd typescript && npm run test",
+    "publish:ts": "cd typescript && npm publish"
+  }
+}
