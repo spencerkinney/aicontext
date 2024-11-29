@@ -1,5 +1,5 @@
 {
-  "name": "aicontext",
+  "name": "@spencerkinneydev/aicontext",
   "version": "0.0.1",
   "description": "Simple context management for AI conversations",
   "main": "dist/index.js",
