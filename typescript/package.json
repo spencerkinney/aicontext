@@ -1,5 +1,5 @@
 {
-  "name": "aicontext-root",
+  "name": "aicontext",
   "version": "0.0.1",
   "description": "Simple context management for AI conversations",
   "main": "dist/index.js",
@@ -12,7 +12,8 @@
     "prepare": "npm run build"
   },
   "files": [
-    "dist"
+    "dist",
+    "README.md"
   ],
   "keywords": [
     "ai",
